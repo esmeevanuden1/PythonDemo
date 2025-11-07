@@ -1,3 +1,7 @@
+import random 
+import pandas
+
+
 print("hoi")
 vara = 25
 
@@ -18,9 +22,11 @@ lijst = [13,55,"vrijdag",["een", "twee"]]
 
 print(lijst[3][0])
 
-nummers = [35,55,77,34,2,9]
+nummers = [35,2,77,34,2,9]
 
-for num in nummers:
-    print(num)
+print(nummers.count(2))
 
-    #  https://www.practicepython.org/
+
+print(random.randint(4,8))
+
+pandas.read_csv("bestand.csv")
