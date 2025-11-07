@@ -25,9 +25,20 @@ ditendat()
 ditendat()
 ditendat()
 ditendat()
-
-def tweedefunctie(param):  # parameter
+# functie procedure methode
+def tweedefunctie(param, tweedparam = "donderdag"):  # parameter
     print("print dit maar", param)
+    print("print dit maar", tweedparam)
+    return "vrijdag" # returntype  / hetgeen dat gereturned wordt
 
-tweedefunctie(34) # argument
-tweedefunctie(42)
+# een aanroep van een methode mag je evalueren tot datgene dat hij returned
+
+uitkomst = tweedefunctie(34, 44) # argument
+print(tweedefunctie(42)) # vrijdag
+
+print(uitkomst)
+
+def geefzes():
+    return 6
+
+print(geefzes() + geefzes())
