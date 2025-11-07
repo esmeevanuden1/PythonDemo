@@ -1,44 +1,26 @@
-print("hoi allemaal")
-a = 15
+print("hoi")
+vara = 25
 
-a = "maandag"
+if vara > 30:
+    print("hoger")
+else:
+    print("lager")
+    # initiator
+                 # evaluator
+                         # incrementor
+# for(var x = 5; x < 10; x += 2){
+#     print(x)
+# }
+for x in range(5, 10, 2):
+    print(x)
 
-print(a)
-b = input("noem je voornaam: ")
-print("je voornaam is: " +b)
-if b == "joost":
-    print("je bent niet welkom")
-    print("go")
-leeftijd = input("wat is je leeftijd")
-leeftijd = int(leeftijd)
-print(leeftijd + 25)
-print("over 25 jaar badsfasdfen je dus ", leeftijd)
-def ditendat():
-    print("doe dit en dat")
+lijst = [13,55,"vrijdag",["een", "twee"]]
 
-ditendat()
-ditendat()
-ditendat()
-ditendat()
-ditendat()
-ditendat()
-ditendat()
-ditendat()
-ditendat()
-# functie procedure methode
-def tweedefunctie(param, tweedparam = "donderdag"):  # parameter
-    print("print dit maar", param)
-    print("print dit maar", tweedparam)
-    return "vrijdag" # returntype  / hetgeen dat gereturned wordt
+print(lijst[3][0])
 
-# een aanroep van een methode mag je evalueren tot datgene dat hij returned
+nummers = [35,55,77,34,2,9]
 
-uitkomst = tweedefunctie(34, 44) # argument
-print(tweedefunctie(42)) # vrijdag
+for num in nummers:
+    print(num)
 
-print(uitkomst)
-
-def geefzes():
-    return 6
-
-print(geefzes() + geefzes())
+    #  https://www.practicepython.org/
